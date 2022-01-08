@@ -4,7 +4,7 @@ import random
 import time
 import os
 PORT = int(os.environ.get('PORT', 5000))
-TOKEN = "5034249047:AAG-gTC5BeIoUDYyg21VoFoYZn9hZKRlCXI"
+TOKEN = os.environ['TOKEN']
 IDONTCARE = range(1)
 
 def start(update, context):
